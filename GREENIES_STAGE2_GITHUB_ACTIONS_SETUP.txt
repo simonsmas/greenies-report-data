@@ -1,0 +1,55 @@
+GREENIES STAGE 2 — GITHUB ACTIONS SETUP
+
+Goal:
+GitHub will generate greenies_totals.json from the sanitized orders.csv file.
+
+Important:
+Only upload the sanitized orders.csv file to GitHub.
+Do NOT upload orders_raw.csv because that contains PII.
+
+Files to add to your GitHub repository:
+1. generate_greenies_json.py
+2. .github/workflows/update-greenies-report.yml
+3. orders.csv
+
+Step-by-step setup:
+
+1. Go to your GitHub repository:
+   https://github.com/simonsmas/greenies-report-data
+
+2. Upload generate_greenies_json.py to the root of the repository.
+
+3. Create the workflow folder/file:
+   .github/workflows/update-greenies-report.yml
+
+   Easiest method:
+   - Click Add file
+   - Click Create new file
+   - In the filename box type:
+     .github/workflows/update-greenies-report.yml
+   - Paste the workflow code from the downloaded YAML file
+   - Commit changes
+
+4. Upload your sanitized orders.csv file to the root of the repository.
+
+5. GitHub Actions should run automatically after orders.csv is uploaded.
+
+6. To run it manually:
+   - Go to the Actions tab
+   - Click "Update Greenies Report"
+   - Click "Run workflow"
+
+7. After it completes, check:
+   https://simonsmas.github.io/greenies-report-data/greenies_totals.json
+
+8. Refresh your Squarespace page.
+
+Daily workflow after setup:
+1. Download raw export locally as orders_raw.csv.
+2. Run the sanitizer locally.
+3. Upload the sanitized orders.csv to GitHub.
+4. GitHub runs the report process and updates Squarespace data.
+
+PII rule:
+orders_raw.csv must stay on your computer.
+Only orders.csv should be uploaded.
