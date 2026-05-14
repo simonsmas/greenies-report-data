@@ -48,17 +48,20 @@ def find_column(df, possible_names):
     raise ValueError(f"Missing required column. Tried: {', '.join(possible_names)}")
 
 def normalize_variant(value):
-    text = str(value).strip()
+    text = str(value or "").strip()
     upper = text.upper()
-    if upper == "TEENIE":
+
+    # Exact or full-product-name matching.
+    if "TEENIE" in upper or "TEENY" in upper:
         return "TEENIE"
-    if upper == "PETITE":
+    if "PETITE" in upper:
         return "Petite"
-    if upper == "REGULAR":
+    if "REGULAR" in upper:
         return "Regular"
-    if upper == "LARGE":
+    if "LARGE" in upper:
         return "Large"
-    return text or "Unknown"
+
+    return "Unknown"
 
 def parse_order_datetime_utc(df, date_col, time_col):
     raw_date = df[date_col].astype(str).str.strip()
@@ -136,6 +139,8 @@ def build_report(input_csv="orders.csv", output_json="greenies_totals.json"):
     retailer_col = find_column(df, ["preferred_retailer", "Retailer_Preference"])
     audience_col = find_column(df, ["audience", "utm_source"])
 
+    original_variant_examples = df[variant_col].dropna().astype(str).str.strip().unique().tolist()[:20]
+
     df["Variant"] = df[variant_col].map(normalize_variant)
     df["OrderEastern"] = parse_order_datetime_utc(df, date_col, time_col)
     df["EasternDate"] = df["OrderEastern"].dt.date
@@ -207,7 +212,7 @@ def build_report(input_csv="orders.csv", output_json="greenies_totals.json"):
 
     total_values = []
     for d in all_dates:
-        total_values.append(int((website_df["EasternDate"] == d).sum()))
+        total_values.append(int(website_df[website_df["Variant"].isin(VARIANT_ORDER)]["EasternDate"].eq(d).sum()))
 
     redemptions_rows.append({
         "variant": "Total",
@@ -266,11 +271,18 @@ def build_report(input_csv="orders.csv", output_json="greenies_totals.json"):
                 "items": audience,
             },
         },
+        "_debug": {
+            "rows_processed": int(len(df)),
+            "variant_column_used": str(variant_col),
+            "original_variant_examples": original_variant_examples,
+            "mapped_variant_counts": {str(k): int(v) for k, v in claimed_by_variant.items()},
+        }
     }
 
     Path(output_json).write_text(json.dumps(data, indent=2), encoding="utf-8")
     print(f"Created {output_json}")
     print(f"Rows processed: {len(df):,}")
+    print(f"Mapped variant counts: {claimed_by_variant}")
     print(f"Includes orders up to Eastern time: {latest_order_eastern_iso}")
 
 def main():
