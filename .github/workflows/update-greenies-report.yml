@@ -1,0 +1,42 @@
+name: Update Greenies Report
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "orders.csv"
+      - "generate_greenies_json.py"
+      - ".github/workflows/update-greenies-report.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Generate Greenies JSON
+        run: |
+          python generate_greenies_json.py orders.csv greenies_totals.json
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add greenies_totals.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update Greenies report data"
+          git push
