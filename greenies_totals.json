@@ -1,10 +1,10 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-05-31T09:27:50.717413+00:00",
+  "last_updated_utc": "2026-05-31T10:27:49.710398+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-05-31T05:22:12-04:00",
-  "includes_orders_up_to_eastern": "2026-05-31T05:22:12-04:00",
+  "latest_order_eastern": "2026-05-31T06:25:34-04:00",
+  "includes_orders_up_to_eastern": "2026-05-31T06:25:34-04:00",
   "updated_to": "2026-05-31",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
@@ -12,8 +12,8 @@
     {
       "variant": "TEENIE",
       "available": 21248,
-      "claimed": 4413,
-      "remaining": 16835,
+      "claimed": 4414,
+      "remaining": 16834,
       "percent_remaining": 79.2,
       "percent_remaining_display": "79.2%"
     },
@@ -28,24 +28,24 @@
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 4233,
-      "remaining": 28552,
+      "claimed": 4235,
+      "remaining": 28550,
       "percent_remaining": 87.1,
       "percent_remaining_display": "87.1%"
     },
     {
       "variant": "Large",
       "available": 11537,
-      "claimed": 5940,
-      "remaining": 5597,
+      "claimed": 5946,
+      "remaining": 5591,
       "percent_remaining": 48.5,
       "percent_remaining_display": "48.5%"
     },
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 17830,
-      "remaining": 65170,
+      "claimed": 17839,
+      "remaining": 65161,
       "percent_remaining": 78.5,
       "percent_remaining_display": "78.5%"
     }
@@ -151,9 +151,9 @@
           184,
           156,
           123,
-          19
+          20
         ],
-        "total": 4413
+        "total": 4414
       },
       {
         "variant": "Petite",
@@ -225,9 +225,9 @@
           154,
           136,
           119,
-          11
+          13
         ],
-        "total": 4233
+        "total": 4235
       },
       {
         "variant": "Large",
@@ -262,9 +262,9 @@
           242,
           207,
           151,
-          25
+          31
         ],
-        "total": 5940
+        "total": 5946
       },
       {
         "variant": "Total",
@@ -299,9 +299,9 @@
           715,
           632,
           466,
-          71
+          80
         ],
-        "total": 17830
+        "total": 17839
       }
     ],
     "max_columns_per_table": 20
@@ -376,7 +376,7 @@
             184,
             156,
             123,
-            19
+            20
           ]
         },
         {
@@ -448,7 +448,7 @@
             154,
             136,
             119,
-            11
+            13
           ]
         },
         {
@@ -484,7 +484,7 @@
             242,
             207,
             151,
-            25
+            31
           ]
         }
       ]
@@ -494,12 +494,12 @@
       "items": [
         {
           "label": "Yes",
-          "count": 7527,
+          "count": 7532,
           "percent": 42.2
         },
         {
           "label": "No",
-          "count": 10303,
+          "count": 10307,
           "percent": 57.8
         }
       ]
@@ -509,12 +509,12 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 7484,
+          "count": 7486,
           "percent": 42.0
         },
         {
           "label": "PetSmart",
-          "count": 2409,
+          "count": 2411,
           "percent": 13.5
         },
         {
@@ -524,22 +524,22 @@
         },
         {
           "label": "Amazon",
-          "count": 2152,
+          "count": 2154,
           "percent": 12.1
         },
         {
           "label": "Target",
-          "count": 1294,
+          "count": 1295,
           "percent": 7.3
         },
         {
           "label": "Petco",
-          "count": 1202,
+          "count": 1203,
           "percent": 6.7
         },
         {
           "label": "Dollar General",
-          "count": 609,
+          "count": 610,
           "percent": 3.4
         },
         {
@@ -559,7 +559,7 @@
       "items": [
         {
           "label": "affinity_audience_1",
-          "count": 8618,
+          "count": 8620,
           "percent": 48.3
         },
         {
@@ -574,19 +574,19 @@
         },
         {
           "label": "lookalike_audience_1",
-          "count": 1833,
+          "count": 1839,
           "percent": 10.3
         },
         {
           "label": "affinity_audience_2",
-          "count": 1757,
+          "count": 1758,
           "percent": 9.9
         }
       ]
     }
   },
   "_debug": {
-    "rows_processed": 17830,
+    "rows_processed": 17839,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -595,10 +595,10 @@
       "Petite (For dogs 15-25lbs)"
     ],
     "mapped_variant_counts": {
-      "Large": 5940,
+      "Large": 5946,
       "Petite": 3244,
-      "Regular": 4233,
-      "TEENIE": 4413
+      "Regular": 4235,
+      "TEENIE": 4414
     }
   }
 }
