@@ -1,51 +1,51 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-06-30T03:27:56.495407+00:00",
+  "last_updated_utc": "2026-06-30T04:27:56.249453+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-06-29T23:25:06-04:00",
-  "includes_orders_up_to_eastern": "2026-06-29T23:25:06-04:00",
-  "updated_to": "2026-06-29",
+  "latest_order_eastern": "2026-06-30T00:24:39-04:00",
+  "includes_orders_up_to_eastern": "2026-06-30T00:24:39-04:00",
+  "updated_to": "2026-06-30",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
   "rows": [
     {
       "variant": "TEENIE",
       "available": 21248,
-      "claimed": 7115,
-      "remaining": 14133,
+      "claimed": 7117,
+      "remaining": 14131,
       "percent_remaining": 66.5,
       "percent_remaining_display": "66.5%"
     },
     {
       "variant": "Petite",
       "available": 17430,
-      "claimed": 5081,
-      "remaining": 12349,
+      "claimed": 5082,
+      "remaining": 12348,
       "percent_remaining": 70.8,
       "percent_remaining_display": "70.8%"
     },
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 6639,
-      "remaining": 26146,
+      "claimed": 6644,
+      "remaining": 26141,
       "percent_remaining": 79.7,
       "percent_remaining_display": "79.7%"
     },
     {
       "variant": "Large",
       "available": 11537,
-      "claimed": 9444,
-      "remaining": 2093,
+      "claimed": 9449,
+      "remaining": 2088,
       "percent_remaining": 18.1,
       "percent_remaining_display": "18.1%"
     },
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 28279,
-      "remaining": 54721,
+      "claimed": 28292,
+      "remaining": 54708,
       "percent_remaining": 65.9,
       "percent_remaining_display": "65.9%"
     }
@@ -111,7 +111,8 @@
       "06/26",
       "06/27",
       "06/28",
-      "06/29"
+      "06/29",
+      "06/30"
     ],
     "date_iso": [
       "2026-05-01",
@@ -173,7 +174,8 @@
       "2026-06-26",
       "2026-06-27",
       "2026-06-28",
-      "2026-06-29"
+      "2026-06-29",
+      "2026-06-30"
     ],
     "rows": [
       {
@@ -238,9 +240,10 @@
           66,
           71,
           64,
-          86
+          87,
+          1
         ],
-        "total": 7115
+        "total": 7117
       },
       {
         "variant": "Petite",
@@ -304,9 +307,10 @@
           61,
           54,
           29,
-          41
+          41,
+          1
         ],
-        "total": 5081
+        "total": 5082
       },
       {
         "variant": "Regular",
@@ -370,9 +374,10 @@
           81,
           82,
           73,
-          59
+          63,
+          1
         ],
-        "total": 6639
+        "total": 6644
       },
       {
         "variant": "Large",
@@ -436,9 +441,10 @@
           114,
           106,
           105,
-          87
+          90,
+          2
         ],
-        "total": 9444
+        "total": 9449
       },
       {
         "variant": "Total",
@@ -502,9 +508,10 @@
           322,
           313,
           271,
-          273
+          281,
+          5
         ],
-        "total": 28279
+        "total": 28292
       }
     ],
     "max_columns_per_table": 20
@@ -572,7 +579,8 @@
         "06/26",
         "06/27",
         "06/28",
-        "06/29"
+        "06/29",
+        "06/30"
       ],
       "series": [
         {
@@ -637,7 +645,8 @@
             66,
             71,
             64,
-            86
+            87,
+            1
           ]
         },
         {
@@ -702,7 +711,8 @@
             61,
             54,
             29,
-            41
+            41,
+            1
           ]
         },
         {
@@ -767,7 +777,8 @@
             81,
             82,
             73,
-            59
+            63,
+            1
           ]
         },
         {
@@ -832,7 +843,8 @@
             114,
             106,
             105,
-            87
+            90,
+            2
           ]
         }
       ]
@@ -842,12 +854,12 @@
       "items": [
         {
           "label": "Yes",
-          "count": 11762,
+          "count": 11767,
           "percent": 41.6
         },
         {
           "label": "No",
-          "count": 16517,
+          "count": 16525,
           "percent": 58.4
         }
       ]
@@ -857,12 +869,12 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 11920,
-          "percent": 42.2
+          "count": 11925,
+          "percent": 42.1
         },
         {
           "label": "PetSmart",
-          "count": 3809,
+          "count": 3813,
           "percent": 13.5
         },
         {
@@ -877,7 +889,7 @@
         },
         {
           "label": "Target",
-          "count": 2051,
+          "count": 2053,
           "percent": 7.3
         },
         {
@@ -887,12 +899,12 @@
         },
         {
           "label": "Dollar General",
-          "count": 968,
+          "count": 969,
           "percent": 3.4
         },
         {
           "label": "Kroger",
-          "count": 853,
+          "count": 854,
           "percent": 3.0
         },
         {
@@ -912,17 +924,17 @@
         },
         {
           "label": "affinity_audience_1",
-          "count": 11425,
+          "count": 11426,
           "percent": 40.4
         },
         {
           "label": "lookalike_audience_1",
-          "count": 7756,
+          "count": 7762,
           "percent": 27.4
         },
         {
           "label": "affinity_audience_2",
-          "count": 3079,
+          "count": 3085,
           "percent": 10.9
         },
         {
@@ -939,7 +951,7 @@
     }
   },
   "_debug": {
-    "rows_processed": 28279,
+    "rows_processed": 28292,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -948,10 +960,10 @@
       "Petite (For dogs 15-25lbs)"
     ],
     "mapped_variant_counts": {
-      "Large": 9444,
-      "Petite": 5081,
-      "Regular": 6639,
-      "TEENIE": 7115
+      "Large": 9449,
+      "Petite": 5082,
+      "Regular": 6644,
+      "TEENIE": 7117
     }
   }
 }
