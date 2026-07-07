@@ -1,10 +1,10 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-07-07T15:27:56.731002+00:00",
+  "last_updated_utc": "2026-07-07T16:27:55.479913+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-07-07T11:22:33-04:00",
-  "includes_orders_up_to_eastern": "2026-07-07T11:22:33-04:00",
+  "latest_order_eastern": "2026-07-07T11:50:58-04:00",
+  "includes_orders_up_to_eastern": "2026-07-07T11:50:58-04:00",
   "updated_to": "2026-07-07",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
@@ -28,24 +28,24 @@
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 6960,
-      "remaining": 25825,
+      "claimed": 6963,
+      "remaining": 25822,
       "percent_remaining": 78.8,
       "percent_remaining_display": "78.8%"
     },
     {
       "variant": "Large",
       "available": 11537,
-      "claimed": 9970,
-      "remaining": 1567,
+      "claimed": 9971,
+      "remaining": 1566,
       "percent_remaining": 13.6,
       "percent_remaining_display": "13.6%"
     },
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 29793,
-      "remaining": 53207,
+      "claimed": 29797,
+      "remaining": 53203,
       "percent_remaining": 64.1,
       "percent_remaining_display": "64.1%"
     }
@@ -410,9 +410,9 @@
           30,
           35,
           47,
-          9
+          12
         ],
-        "total": 6960
+        "total": 6963
       },
       {
         "variant": "Large",
@@ -484,9 +484,9 @@
           46,
           72,
           57,
-          29
+          30
         ],
-        "total": 9970
+        "total": 9971
       },
       {
         "variant": "Total",
@@ -558,9 +558,9 @@
           151,
           180,
           209,
-          65
+          69
         ],
-        "total": 29793
+        "total": 29797
       }
     ],
     "max_columns_per_table": 20
@@ -855,7 +855,7 @@
             30,
             35,
             47,
-            9
+            12
           ]
         },
         {
@@ -928,7 +928,7 @@
             46,
             72,
             57,
-            29
+            30
           ]
         }
       ]
@@ -938,12 +938,12 @@
       "items": [
         {
           "label": "Yes",
-          "count": 12359,
+          "count": 12361,
           "percent": 41.5
         },
         {
           "label": "No",
-          "count": 17434,
+          "count": 17436,
           "percent": 58.5
         }
       ]
@@ -958,7 +958,7 @@
         },
         {
           "label": "PetSmart",
-          "count": 4035,
+          "count": 4037,
           "percent": 13.5
         },
         {
@@ -973,13 +973,13 @@
         },
         {
           "label": "Target",
-          "count": 2155,
+          "count": 2156,
           "percent": 7.2
         },
         {
           "label": "Petco",
-          "count": 2011,
-          "percent": 6.7
+          "count": 2012,
+          "percent": 6.8
         },
         {
           "label": "Dollar General",
@@ -1008,12 +1008,12 @@
         },
         {
           "label": "affinity_audience_1",
-          "count": 11793,
+          "count": 11794,
           "percent": 39.6
         },
         {
           "label": "lookalike_audience_1",
-          "count": 8652,
+          "count": 8654,
           "percent": 29.0
         },
         {
@@ -1028,14 +1028,14 @@
         },
         {
           "label": "broad_w_advantage_plus",
-          "count": 3002,
+          "count": 3003,
           "percent": 10.1
         }
       ]
     }
   },
   "_debug": {
-    "rows_processed": 29793,
+    "rows_processed": 29797,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1044,9 +1044,9 @@
       "Petite (For dogs 15-25lbs)"
     ],
     "mapped_variant_counts": {
-      "Large": 9970,
+      "Large": 9971,
       "Petite": 5375,
-      "Regular": 6960,
+      "Regular": 6963,
       "TEENIE": 7488
     }
   }
