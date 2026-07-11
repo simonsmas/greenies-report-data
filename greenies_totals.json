@@ -1,51 +1,51 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-07-11T03:27:57.323334+00:00",
+  "last_updated_utc": "2026-07-11T04:27:54.454747+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-07-10T23:25:29-04:00",
-  "includes_orders_up_to_eastern": "2026-07-10T23:25:29-04:00",
-  "updated_to": "2026-07-10",
+  "latest_order_eastern": "2026-07-11T00:24:00-04:00",
+  "includes_orders_up_to_eastern": "2026-07-11T00:24:00-04:00",
+  "updated_to": "2026-07-11",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
   "rows": [
     {
       "variant": "TEENIE",
       "available": 21248,
-      "claimed": 7683,
-      "remaining": 13565,
+      "claimed": 7686,
+      "remaining": 13562,
       "percent_remaining": 63.8,
       "percent_remaining_display": "63.8%"
     },
     {
       "variant": "Petite",
       "available": 17430,
-      "claimed": 5505,
-      "remaining": 11925,
+      "claimed": 5507,
+      "remaining": 11923,
       "percent_remaining": 68.4,
       "percent_remaining_display": "68.4%"
     },
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 7122,
-      "remaining": 25663,
+      "claimed": 7124,
+      "remaining": 25661,
       "percent_remaining": 78.3,
       "percent_remaining_display": "78.3%"
     },
     {
       "variant": "Large",
       "available": 11537,
-      "claimed": 10206,
-      "remaining": 1331,
+      "claimed": 10207,
+      "remaining": 1330,
       "percent_remaining": 11.5,
       "percent_remaining_display": "11.5%"
     },
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 30516,
-      "remaining": 52484,
+      "claimed": 30524,
+      "remaining": 52476,
       "percent_remaining": 63.2,
       "percent_remaining_display": "63.2%"
     }
@@ -122,7 +122,8 @@
       "07/07",
       "07/08",
       "07/09",
-      "07/10"
+      "07/10",
+      "07/11"
     ],
     "date_iso": [
       "2026-05-01",
@@ -195,7 +196,8 @@
       "2026-07-07",
       "2026-07-08",
       "2026-07-09",
-      "2026-07-10"
+      "2026-07-10",
+      "2026-07-11"
     ],
     "rows": [
       {
@@ -271,9 +273,10 @@
           37,
           68,
           48,
-          56
+          59,
+          0
         ],
-        "total": 7683
+        "total": 7686
       },
       {
         "variant": "Petite",
@@ -348,9 +351,10 @@
           30,
           38,
           30,
-          45
+          45,
+          2
         ],
-        "total": 5505
+        "total": 5507
       },
       {
         "variant": "Regular",
@@ -425,9 +429,10 @@
           43,
           42,
           41,
-          45
+          46,
+          1
         ],
-        "total": 7122
+        "total": 7124
       },
       {
         "variant": "Large",
@@ -502,9 +507,10 @@
           62,
           69,
           63,
-          71
+          71,
+          1
         ],
-        "total": 10206
+        "total": 10207
       },
       {
         "variant": "Total",
@@ -579,9 +585,10 @@
           172,
           217,
           182,
-          217
+          221,
+          4
         ],
-        "total": 30516
+        "total": 30524
       }
     ],
     "max_columns_per_table": 20
@@ -660,7 +667,8 @@
         "07/07",
         "07/08",
         "07/09",
-        "07/10"
+        "07/10",
+        "07/11"
       ],
       "series": [
         {
@@ -736,7 +744,8 @@
             37,
             68,
             48,
-            56
+            59,
+            0
           ]
         },
         {
@@ -812,7 +821,8 @@
             30,
             38,
             30,
-            45
+            45,
+            2
           ]
         },
         {
@@ -888,7 +898,8 @@
             43,
             42,
             41,
-            45
+            46,
+            1
           ]
         },
         {
@@ -964,7 +975,8 @@
             62,
             69,
             63,
-            71
+            71,
+            1
           ]
         }
       ]
@@ -974,12 +986,12 @@
       "items": [
         {
           "label": "Yes",
-          "count": 12647,
+          "count": 12651,
           "percent": 41.4
         },
         {
           "label": "No",
-          "count": 17869,
+          "count": 17873,
           "percent": 58.6
         }
       ]
@@ -989,27 +1001,27 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 12767,
+          "count": 12769,
           "percent": 41.8
         },
         {
           "label": "PetSmart",
-          "count": 4155,
+          "count": 4156,
           "percent": 13.6
         },
         {
           "label": "Chewy",
-          "count": 3443,
+          "count": 3444,
           "percent": 11.3
         },
         {
           "label": "Amazon",
-          "count": 3796,
+          "count": 3797,
           "percent": 12.4
         },
         {
           "label": "Target",
-          "count": 2218,
+          "count": 2221,
           "percent": 7.3
         },
         {
@@ -1044,12 +1056,12 @@
         },
         {
           "label": "affinity_audience_1",
-          "count": 12023,
+          "count": 12025,
           "percent": 39.4
         },
         {
           "label": "lookalike_audience_1",
-          "count": 9038,
+          "count": 9043,
           "percent": 29.6
         },
         {
@@ -1064,14 +1076,14 @@
         },
         {
           "label": "broad_w_advantage_plus",
-          "count": 3016,
+          "count": 3017,
           "percent": 9.9
         }
       ]
     }
   },
   "_debug": {
-    "rows_processed": 30516,
+    "rows_processed": 30524,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1080,10 +1092,10 @@
       "Petite (For dogs 15-25lbs)"
     ],
     "mapped_variant_counts": {
-      "Large": 10206,
-      "Petite": 5505,
-      "Regular": 7122,
-      "TEENIE": 7683
+      "Large": 10207,
+      "Petite": 5507,
+      "Regular": 7124,
+      "TEENIE": 7686
     }
   }
 }
