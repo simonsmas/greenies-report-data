@@ -1,51 +1,51 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-07-18T03:27:58.253539+00:00",
+  "last_updated_utc": "2026-07-18T04:27:55.408940+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-07-17T23:24:09-04:00",
-  "includes_orders_up_to_eastern": "2026-07-17T23:24:09-04:00",
-  "updated_to": "2026-07-17",
+  "latest_order_eastern": "2026-07-18T00:24:11-04:00",
+  "includes_orders_up_to_eastern": "2026-07-18T00:24:11-04:00",
+  "updated_to": "2026-07-18",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
   "rows": [
     {
       "variant": "TEENIE",
       "available": 21248,
-      "claimed": 8107,
-      "remaining": 13141,
+      "claimed": 8108,
+      "remaining": 13140,
       "percent_remaining": 61.8,
       "percent_remaining_display": "61.8%"
     },
     {
       "variant": "Petite",
       "available": 17430,
-      "claimed": 5820,
-      "remaining": 11610,
+      "claimed": 5824,
+      "remaining": 11606,
       "percent_remaining": 66.6,
       "percent_remaining_display": "66.6%"
     },
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 7469,
-      "remaining": 25316,
+      "claimed": 7472,
+      "remaining": 25313,
       "percent_remaining": 77.2,
       "percent_remaining_display": "77.2%"
     },
     {
       "variant": "Large",
       "available": 11537,
-      "claimed": 10729,
-      "remaining": 808,
+      "claimed": 10734,
+      "remaining": 803,
       "percent_remaining": 7.0,
       "percent_remaining_display": "7%"
     },
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 32125,
-      "remaining": 50875,
+      "claimed": 32138,
+      "remaining": 50862,
       "percent_remaining": 61.3,
       "percent_remaining_display": "61.3%"
     }
@@ -129,7 +129,8 @@
       "07/14",
       "07/15",
       "07/16",
-      "07/17"
+      "07/17",
+      "07/18"
     ],
     "date_iso": [
       "2026-05-01",
@@ -209,7 +210,8 @@
       "2026-07-14",
       "2026-07-15",
       "2026-07-16",
-      "2026-07-17"
+      "2026-07-17",
+      "2026-07-18"
     ],
     "rows": [
       {
@@ -292,9 +294,10 @@
           73,
           86,
           69,
-          67
+          67,
+          1
         ],
-        "total": 8107
+        "total": 8108
       },
       {
         "variant": "Petite",
@@ -376,9 +379,10 @@
           57,
           59,
           48,
-          50
+          51,
+          3
         ],
-        "total": 5820
+        "total": 5824
       },
       {
         "variant": "Regular",
@@ -460,9 +464,10 @@
           63,
           79,
           47,
-          55
+          55,
+          3
         ],
-        "total": 7469
+        "total": 7472
       },
       {
         "variant": "Large",
@@ -544,9 +549,10 @@
           82,
           99,
           85,
-          86
+          91,
+          0
         ],
-        "total": 10729
+        "total": 10734
       },
       {
         "variant": "Total",
@@ -628,9 +634,10 @@
           275,
           323,
           249,
-          258
+          264,
+          7
         ],
-        "total": 32125
+        "total": 32138
       }
     ],
     "max_columns_per_table": 20
@@ -716,7 +723,8 @@
         "07/14",
         "07/15",
         "07/16",
-        "07/17"
+        "07/17",
+        "07/18"
       ],
       "series": [
         {
@@ -799,7 +807,8 @@
             73,
             86,
             69,
-            67
+            67,
+            1
           ]
         },
         {
@@ -882,7 +891,8 @@
             57,
             59,
             48,
-            50
+            51,
+            3
           ]
         },
         {
@@ -965,7 +975,8 @@
             63,
             79,
             47,
-            55
+            55,
+            3
           ]
         },
         {
@@ -1048,7 +1059,8 @@
             82,
             99,
             85,
-            86
+            91,
+            0
           ]
         }
       ]
@@ -1058,12 +1070,12 @@
       "items": [
         {
           "label": "Yes",
-          "count": 13287,
+          "count": 13294,
           "percent": 41.4
         },
         {
           "label": "No",
-          "count": 18838,
+          "count": 18844,
           "percent": 58.6
         }
       ]
@@ -1073,27 +1085,27 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 13432,
+          "count": 13437,
           "percent": 41.8
         },
         {
           "label": "PetSmart",
-          "count": 4376,
+          "count": 4379,
           "percent": 13.6
         },
         {
           "label": "Chewy",
-          "count": 3627,
+          "count": 3628,
           "percent": 11.3
         },
         {
           "label": "Amazon",
-          "count": 4014,
+          "count": 4017,
           "percent": 12.5
         },
         {
           "label": "Target",
-          "count": 2334,
+          "count": 2335,
           "percent": 7.3
         },
         {
@@ -1123,17 +1135,17 @@
       "items": [
         {
           "label": "Unknown",
-          "count": 74,
+          "count": 75,
           "percent": 0.2
         },
         {
           "label": "affinity_audience_1",
-          "count": 12480,
-          "percent": 38.8
+          "count": 12486,
+          "percent": 38.9
         },
         {
           "label": "lookalike_audience_1",
-          "count": 9952,
+          "count": 9958,
           "percent": 31.0
         },
         {
@@ -1160,7 +1172,7 @@
     }
   },
   "_debug": {
-    "rows_processed": 32125,
+    "rows_processed": 32138,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1169,10 +1181,10 @@
       "Petite (For dogs 15-25lbs)"
     ],
     "mapped_variant_counts": {
-      "Large": 10729,
-      "Petite": 5820,
-      "Regular": 7469,
-      "TEENIE": 8107
+      "Large": 10734,
+      "Petite": 5824,
+      "Regular": 7472,
+      "TEENIE": 8108
     }
   }
 }
