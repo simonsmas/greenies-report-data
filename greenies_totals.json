@@ -1,37 +1,37 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-08-02T03:28:06.790648+00:00",
+  "last_updated_utc": "2026-08-02T04:28:07.532460+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-08-01T23:23:41-04:00",
-  "includes_orders_up_to_eastern": "2026-08-01T23:23:41-04:00",
-  "updated_to": "2026-08-01",
+  "latest_order_eastern": "2026-08-02T00:25:02-04:00",
+  "includes_orders_up_to_eastern": "2026-08-02T00:25:02-04:00",
+  "updated_to": "2026-08-02",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
   "rows": [
     {
       "variant": "TEENIE",
       "available": 21248,
-      "claimed": 11870,
-      "remaining": 9378,
+      "claimed": 11875,
+      "remaining": 9373,
       "percent_remaining": 44.1,
       "percent_remaining_display": "44.1%"
     },
     {
       "variant": "Petite",
       "available": 17430,
-      "claimed": 8820,
-      "remaining": 8610,
-      "percent_remaining": 49.4,
-      "percent_remaining_display": "49.4%"
+      "claimed": 8831,
+      "remaining": 8599,
+      "percent_remaining": 49.3,
+      "percent_remaining_display": "49.3%"
     },
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 15998,
-      "remaining": 16787,
-      "percent_remaining": 51.2,
-      "percent_remaining_display": "51.2%"
+      "claimed": 16023,
+      "remaining": 16762,
+      "percent_remaining": 51.1,
+      "percent_remaining_display": "51.1%"
     },
     {
       "variant": "Large",
@@ -44,10 +44,10 @@
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 48225,
-      "remaining": 34775,
-      "percent_remaining": 41.9,
-      "percent_remaining_display": "41.9%"
+      "claimed": 48266,
+      "remaining": 34734,
+      "percent_remaining": 41.8,
+      "percent_remaining_display": "41.8%"
     }
   ],
   "redemptions_by_day": {
@@ -144,7 +144,8 @@
       "07/29",
       "07/30",
       "07/31",
-      "08/01"
+      "08/01",
+      "08/02"
     ],
     "date_iso": [
       "2026-05-01",
@@ -239,7 +240,8 @@
       "2026-07-29",
       "2026-07-30",
       "2026-07-31",
-      "2026-08-01"
+      "2026-08-01",
+      "2026-08-02"
     ],
     "rows": [
       {
@@ -337,9 +339,10 @@
           681,
           1393,
           586,
-          392
+          395,
+          2
         ],
-        "total": 11870
+        "total": 11875
       },
       {
         "variant": "Petite",
@@ -436,9 +439,10 @@
           581,
           1046,
           528,
-          334
+          342,
+          3
         ],
-        "total": 8820
+        "total": 8831
       },
       {
         "variant": "Regular",
@@ -535,9 +539,10 @@
           1778,
           3353,
           1540,
-          1110
+          1127,
+          8
         ],
-        "total": 15998
+        "total": 16023
       },
       {
         "variant": "Large",
@@ -630,6 +635,7 @@
           73,
           61,
           47,
+          0,
           0,
           0,
           0,
@@ -733,9 +739,10 @@
           3040,
           5792,
           2654,
-          1836
+          1864,
+          13
         ],
-        "total": 48225
+        "total": 48266
       }
     ],
     "max_columns_per_table": 20
@@ -836,7 +843,8 @@
         "07/29",
         "07/30",
         "07/31",
-        "08/01"
+        "08/01",
+        "08/02"
       ],
       "series": [
         {
@@ -934,7 +942,8 @@
             681,
             1393,
             586,
-            392
+            395,
+            2
           ]
         },
         {
@@ -1032,7 +1041,8 @@
             581,
             1046,
             528,
-            334
+            342,
+            3
           ]
         },
         {
@@ -1130,7 +1140,8 @@
             1778,
             3353,
             1540,
-            1110
+            1127,
+            8
           ]
         },
         {
@@ -1228,6 +1239,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         }
@@ -1238,12 +1250,12 @@
       "items": [
         {
           "label": "Yes",
-          "count": 20693,
+          "count": 20715,
           "percent": 42.9
         },
         {
           "label": "No",
-          "count": 27532,
+          "count": 27551,
           "percent": 57.1
         }
       ]
@@ -1253,37 +1265,37 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 19226,
+          "count": 19246,
           "percent": 39.9
         },
         {
           "label": "PetSmart",
-          "count": 6430,
+          "count": 6438,
           "percent": 13.3
         },
         {
           "label": "Chewy",
-          "count": 5638,
+          "count": 5639,
           "percent": 11.7
         },
         {
           "label": "Amazon",
-          "count": 7096,
+          "count": 7101,
           "percent": 14.7
         },
         {
           "label": "Target",
-          "count": 3594,
+          "count": 3596,
           "percent": 7.5
         },
         {
           "label": "Petco",
-          "count": 3240,
+          "count": 3244,
           "percent": 6.7
         },
         {
           "label": "Dollar General",
-          "count": 1456,
+          "count": 1457,
           "percent": 3.0
         },
         {
@@ -1313,18 +1325,18 @@
         },
         {
           "label": "smas",
-          "count": 12422,
+          "count": 12462,
           "percent": 25.8
         },
         {
           "label": "lookalike_audience_1",
-          "count": 11821,
+          "count": 11822,
           "percent": 24.5
         },
         {
           "label": "affinity_audience_2",
           "count": 3933,
-          "percent": 8.2
+          "percent": 8.1
         },
         {
           "label": "broad_w_advantage_plus",
@@ -1345,7 +1357,7 @@
     }
   },
   "_debug": {
-    "rows_processed": 48225,
+    "rows_processed": 48266,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1355,9 +1367,9 @@
     ],
     "mapped_variant_counts": {
       "Large": 11537,
-      "Petite": 8820,
-      "Regular": 15998,
-      "TEENIE": 11870
+      "Petite": 8831,
+      "Regular": 16023,
+      "TEENIE": 11875
     }
   }
 }
