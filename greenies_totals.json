@@ -1,10 +1,10 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-08-22T02:28:07.983947+00:00",
+  "last_updated_utc": "2026-08-22T03:28:08.463390+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-08-21T22:24:16-04:00",
-  "includes_orders_up_to_eastern": "2026-08-21T22:24:16-04:00",
+  "latest_order_eastern": "2026-08-21T23:19:47-04:00",
+  "includes_orders_up_to_eastern": "2026-08-21T23:19:47-04:00",
   "updated_to": "2026-08-21",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
@@ -12,8 +12,8 @@
     {
       "variant": "TEENIE",
       "available": 21248,
-      "claimed": 14846,
-      "remaining": 6402,
+      "claimed": 14849,
+      "remaining": 6399,
       "percent_remaining": 30.1,
       "percent_remaining_display": "30.1%"
     },
@@ -28,8 +28,8 @@
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 23277,
-      "remaining": 9508,
+      "claimed": 23283,
+      "remaining": 9502,
       "percent_remaining": 29.0,
       "percent_remaining_display": "29%"
     },
@@ -44,8 +44,8 @@
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 60787,
-      "remaining": 22213,
+      "claimed": 60796,
+      "remaining": 22204,
       "percent_remaining": 26.8,
       "percent_remaining_display": "26.8%"
     }
@@ -397,9 +397,9 @@
           113,
           88,
           76,
-          55
+          58
         ],
-        "total": 14846
+        "total": 14849
       },
       {
         "variant": "Petite",
@@ -635,9 +635,9 @@
           321,
           177,
           174,
-          154
+          160
         ],
-        "total": 23277
+        "total": 23283
       },
       {
         "variant": "Large",
@@ -873,9 +873,9 @@
           524,
           331,
           312,
-          259
+          268
         ],
-        "total": 60787
+        "total": 60796
       }
     ],
     "max_columns_per_table": 20
@@ -1114,7 +1114,7 @@
             113,
             88,
             76,
-            55
+            58
           ]
         },
         {
@@ -1350,7 +1350,7 @@
             321,
             177,
             174,
-            154
+            160
           ]
         },
         {
@@ -1478,12 +1478,12 @@
       "items": [
         {
           "label": "Yes",
-          "count": 26916,
+          "count": 26919,
           "percent": 44.3
         },
         {
           "label": "No",
-          "count": 33871,
+          "count": 33877,
           "percent": 55.7
         }
       ]
@@ -1493,7 +1493,7 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 23560,
+          "count": 23563,
           "percent": 38.8
         },
         {
@@ -1503,12 +1503,12 @@
         },
         {
           "label": "Chewy",
-          "count": 7073,
+          "count": 7075,
           "percent": 11.6
         },
         {
           "label": "Amazon",
-          "count": 9564,
+          "count": 9567,
           "percent": 15.7
         },
         {
@@ -1523,7 +1523,7 @@
         },
         {
           "label": "Dollar General",
-          "count": 1756,
+          "count": 1757,
           "percent": 2.9
         },
         {
@@ -1548,7 +1548,7 @@
         },
         {
           "label": "smas",
-          "count": 24793,
+          "count": 24800,
           "percent": 40.8
         },
         {
@@ -1558,7 +1558,7 @@
         },
         {
           "label": "lookalike_audience_1",
-          "count": 11855,
+          "count": 11857,
           "percent": 19.5
         },
         {
@@ -1585,7 +1585,7 @@
     }
   },
   "_debug": {
-    "rows_processed": 60787,
+    "rows_processed": 60796,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1596,8 +1596,8 @@
     "mapped_variant_counts": {
       "Large": 11537,
       "Petite": 11127,
-      "Regular": 23277,
-      "TEENIE": 14846
+      "Regular": 23283,
+      "TEENIE": 14849
     }
   }
 }
