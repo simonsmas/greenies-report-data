@@ -1,11 +1,11 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-09-09T04:28:10.919233+00:00",
+  "last_updated_utc": "2026-09-09T05:28:09.779861+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-09-08T23:46:58-04:00",
-  "includes_orders_up_to_eastern": "2026-09-08T23:46:58-04:00",
-  "updated_to": "2026-09-08",
+  "latest_order_eastern": "2026-09-09T00:30:05-04:00",
+  "includes_orders_up_to_eastern": "2026-09-09T00:30:05-04:00",
+  "updated_to": "2026-09-09",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
   "rows": [
@@ -28,8 +28,8 @@
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 24127,
-      "remaining": 8658,
+      "claimed": 24128,
+      "remaining": 8657,
       "percent_remaining": 26.4,
       "percent_remaining_display": "26.4%"
     },
@@ -44,8 +44,8 @@
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 62247,
-      "remaining": 20753,
+      "claimed": 62248,
+      "remaining": 20752,
       "percent_remaining": 25.0,
       "percent_remaining_display": "25%"
     }
@@ -182,7 +182,8 @@
       "09/05",
       "09/06",
       "09/07",
-      "09/08"
+      "09/08",
+      "09/09"
     ],
     "date_iso": [
       "2026-05-01",
@@ -315,7 +316,8 @@
       "2026-09-05",
       "2026-09-06",
       "2026-09-07",
-      "2026-09-08"
+      "2026-09-08",
+      "2026-09-09"
     ],
     "rows": [
       {
@@ -451,7 +453,8 @@
           2,
           110,
           38,
-          8
+          8,
+          0
         ],
         "total": 15195
       },
@@ -588,7 +591,8 @@
           3,
           92,
           22,
-          12
+          12,
+          0
         ],
         "total": 11388
       },
@@ -725,9 +729,10 @@
           21,
           278,
           67,
-          39
+          39,
+          1
         ],
-        "total": 24127
+        "total": 24128
       },
       {
         "variant": "Large",
@@ -820,6 +825,7 @@
           73,
           61,
           47,
+          0,
           0,
           0,
           0,
@@ -999,9 +1005,10 @@
           26,
           480,
           127,
-          59
+          59,
+          1
         ],
-        "total": 62247
+        "total": 62248
       }
     ],
     "max_columns_per_table": 20
@@ -1140,7 +1147,8 @@
         "09/05",
         "09/06",
         "09/07",
-        "09/08"
+        "09/08",
+        "09/09"
       ],
       "series": [
         {
@@ -1276,7 +1284,8 @@
             2,
             110,
             38,
-            8
+            8,
+            0
           ]
         },
         {
@@ -1412,7 +1421,8 @@
             3,
             92,
             22,
-            12
+            12,
+            0
           ]
         },
         {
@@ -1548,7 +1558,8 @@
             21,
             278,
             67,
-            39
+            39,
+            1
           ]
         },
         {
@@ -1684,6 +1695,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         }
@@ -1699,7 +1711,7 @@
         },
         {
           "label": "No",
-          "count": 34594,
+          "count": 34595,
           "percent": 55.6
         }
       ]
@@ -1709,7 +1721,7 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 24153,
+          "count": 24154,
           "percent": 38.8
         },
         {
@@ -1764,7 +1776,7 @@
         },
         {
           "label": "smas",
-          "count": 26221,
+          "count": 26222,
           "percent": 42.1
         },
         {
@@ -1801,7 +1813,7 @@
     }
   },
   "_debug": {
-    "rows_processed": 62247,
+    "rows_processed": 62248,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1812,7 +1824,7 @@
     "mapped_variant_counts": {
       "Large": 11537,
       "Petite": 11388,
-      "Regular": 24127,
+      "Regular": 24128,
       "TEENIE": 15195
     }
   }
