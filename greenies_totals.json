@@ -1,10 +1,10 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-09-14T06:28:12.248512+00:00",
+  "last_updated_utc": "2026-09-14T07:28:21.918321+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-09-14T01:52:57-04:00",
-  "includes_orders_up_to_eastern": "2026-09-14T01:52:57-04:00",
+  "latest_order_eastern": "2026-09-14T03:22:26-04:00",
+  "includes_orders_up_to_eastern": "2026-09-14T03:22:26-04:00",
   "updated_to": "2026-09-14",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
@@ -20,10 +20,10 @@
     {
       "variant": "Petite",
       "available": 17430,
-      "claimed": 11407,
-      "remaining": 6023,
-      "percent_remaining": 34.6,
-      "percent_remaining_display": "34.6%"
+      "claimed": 11408,
+      "remaining": 6022,
+      "percent_remaining": 34.5,
+      "percent_remaining_display": "34.5%"
     },
     {
       "variant": "Regular",
@@ -44,8 +44,8 @@
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 62339,
-      "remaining": 20661,
+      "claimed": 62340,
+      "remaining": 20660,
       "percent_remaining": 24.9,
       "percent_remaining_display": "24.9%"
     }
@@ -612,9 +612,9 @@
           4,
           2,
           6,
-          1
+          2
         ],
-        "total": 11407
+        "total": 11408
       },
       {
         "variant": "Regular",
@@ -1041,9 +1041,9 @@
           15,
           11,
           19,
-          2
+          3
         ],
-        "total": 62339
+        "total": 62340
       }
     ],
     "max_columns_per_table": 20
@@ -1472,7 +1472,7 @@
             4,
             2,
             6,
-            1
+            2
           ]
         },
         {
@@ -1766,7 +1766,7 @@
       "items": [
         {
           "label": "Yes",
-          "count": 27695,
+          "count": 27696,
           "percent": 44.4
         },
         {
@@ -1781,7 +1781,7 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 24197,
+          "count": 24198,
           "percent": 38.8
         },
         {
@@ -1836,7 +1836,7 @@
         },
         {
           "label": "smas",
-          "count": 26311,
+          "count": 26312,
           "percent": 42.2
         },
         {
@@ -1873,7 +1873,7 @@
     }
   },
   "_debug": {
-    "rows_processed": 62339,
+    "rows_processed": 62340,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1883,7 +1883,7 @@
     ],
     "mapped_variant_counts": {
       "Large": 11537,
-      "Petite": 11407,
+      "Petite": 11408,
       "Regular": 24176,
       "TEENIE": 15219
     }
