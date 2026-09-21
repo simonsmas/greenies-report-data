@@ -1,11 +1,11 @@
 {
   "campaign": "Greenies",
   "timezone": "America/New_York",
-  "last_updated_utc": "2026-09-21T03:28:07.885779+00:00",
+  "last_updated_utc": "2026-09-21T15:28:09.977106+00:00",
   "last_updated_source": "GitHub Actions processing time",
-  "latest_order_eastern": "2026-09-20T22:54:42-04:00",
-  "includes_orders_up_to_eastern": "2026-09-20T22:54:42-04:00",
-  "updated_to": "2026-09-20",
+  "latest_order_eastern": "2026-09-21T11:11:56-04:00",
+  "includes_orders_up_to_eastern": "2026-09-21T11:11:56-04:00",
+  "updated_to": "2026-09-21",
   "excluded_current_eastern_date": null,
   "includes_current_eastern_date": true,
   "rows": [
@@ -28,10 +28,10 @@
     {
       "variant": "Regular",
       "available": 32785,
-      "claimed": 24211,
-      "remaining": 8574,
-      "percent_remaining": 26.2,
-      "percent_remaining_display": "26.2%"
+      "claimed": 24212,
+      "remaining": 8573,
+      "percent_remaining": 26.1,
+      "percent_remaining_display": "26.1%"
     },
     {
       "variant": "Large",
@@ -44,8 +44,8 @@
     {
       "variant": "TOTAL",
       "available": 83000,
-      "claimed": 62398,
-      "remaining": 20602,
+      "claimed": 62399,
+      "remaining": 20601,
       "percent_remaining": 24.8,
       "percent_remaining_display": "24.8%"
     }
@@ -194,7 +194,8 @@
       "09/17",
       "09/18",
       "09/19",
-      "09/20"
+      "09/20",
+      "09/21"
     ],
     "date_iso": [
       "2026-05-01",
@@ -339,7 +340,8 @@
       "2026-09-17",
       "2026-09-18",
       "2026-09-19",
-      "2026-09-20"
+      "2026-09-20",
+      "2026-09-21"
     ],
     "rows": [
       {
@@ -487,6 +489,7 @@
           2,
           2,
           1,
+          0,
           0
         ],
         "total": 15234
@@ -635,6 +638,7 @@
           2,
           1,
           3,
+          0,
           0,
           0
         ],
@@ -785,9 +789,10 @@
           10,
           6,
           5,
-          4
+          4,
+          1
         ],
-        "total": 24211
+        "total": 24212
       },
       {
         "variant": "Large",
@@ -880,6 +885,7 @@
           73,
           61,
           47,
+          0,
           0,
           0,
           0,
@@ -1083,9 +1089,10 @@
           13,
           11,
           6,
-          4
+          4,
+          1
         ],
-        "total": 62398
+        "total": 62399
       }
     ],
     "max_columns_per_table": 20
@@ -1236,7 +1243,8 @@
         "09/17",
         "09/18",
         "09/19",
-        "09/20"
+        "09/20",
+        "09/21"
       ],
       "series": [
         {
@@ -1384,6 +1392,7 @@
             2,
             2,
             1,
+            0,
             0
           ]
         },
@@ -1531,6 +1540,7 @@
             2,
             1,
             3,
+            0,
             0,
             0
           ]
@@ -1680,7 +1690,8 @@
             10,
             6,
             5,
-            4
+            4,
+            1
           ]
         },
         {
@@ -1828,6 +1839,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         }
@@ -1843,7 +1855,7 @@
         },
         {
           "label": "No",
-          "count": 34683,
+          "count": 34684,
           "percent": 55.6
         }
       ]
@@ -1853,7 +1865,7 @@
       "items": [
         {
           "label": "Walmart",
-          "count": 24222,
+          "count": 24223,
           "percent": 38.8
         },
         {
@@ -1908,8 +1920,8 @@
         },
         {
           "label": "smas",
-          "count": 26363,
-          "percent": 42.2
+          "count": 26364,
+          "percent": 42.3
         },
         {
           "label": "affinity_audience_1",
@@ -1945,7 +1957,7 @@
     }
   },
   "_debug": {
-    "rows_processed": 62398,
+    "rows_processed": 62399,
     "variant_column_used": "variant",
     "original_variant_examples": [
       "Large (For dogs 50-100lbs)",
@@ -1956,7 +1968,7 @@
     "mapped_variant_counts": {
       "Large": 11537,
       "Petite": 11416,
-      "Regular": 24211,
+      "Regular": 24212,
       "TEENIE": 15234
     }
   }
